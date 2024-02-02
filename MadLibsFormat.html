@@ -1,0 +1,53 @@
+<html>
+	<head>
+	    <title>MadLibs!</title>
+		<link rel = "stylesheet" href = "madLibsFormat.css">
+		<script src = "madLibs.js"> </script>
+	</head>
+
+	<body>
+	<h1>Create a format</h1>
+		<form id = "selectFormat" action = "" name = "madLibs" onsubmit = "valueSetter()" >
+			<table align = "center">
+				<tr>
+					<td class = "description">Font Color</td>
+					<td>
+						<table>
+							<td> <input id = "fR" type = "number" value = "0" min = "0" max = "255"> </td>
+							<td> <input id = "fG" type = "number" value = "0" min = "0" max = "255">  </td>
+							<td> <input id = "fB" type = "number" value = "0" min = "0" max = "255">  </td>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class = "description">Background Color</td>
+					<td>
+						<table>
+							<td> <input id = "bgR" type = "number" value = "150" min = "0" max = "255"> </td>
+							<td> <input id = "bgG" type = "number" value = "150" min = "0" max = "255">  </td>
+							<td> <input id = "bgB" type = "number" value = "150" min = "0" max = "255">  </td>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class = "description">Font Size (15-35) </td>
+					<td> <input  id = "fontSize" class = "input2" type = "number" min = "15" max = "35" value = "25" /></td>
+				</tr>
+				</table>
+				<tr align = "center">
+					<h2> Click Continue to Go to the Next Page!</h2>
+					<button type = "button" class = "CONTIN" onclick = "chooseNext()">Continue</button></td>
+				</tr>
+
+			
+		 </form>
+		 
+	</body>
+</html>
+
+
+
+
+
+
+

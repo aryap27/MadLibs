@@ -1,0 +1,36 @@
+/*The font "Chonburi, cursive" was obtained from w3Schools*/
+body { 
+	font-family: 'Chonburi', cursive;
+	color: yellow;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* researched from w3Schools as text-align was not working at all*/
+    margin: 0;
+	background-color: purple;
+}
+h1{
+	color: lightgreen;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Chonburi', cursive;
+}
+input{
+	font-family: 'Chonburi', cursive;
+	color: purple;
+	text-align:center;
+}
+button{
+	text-align:center;
+    font-size: 34px;
+    color: yellow;
+    background-color: rgb(101, 242, 9);
+    width: 200px;
+    height: 100px;
+
+	font-family: 'Chonburi', cursive;
+}
+button:hover { /*Hover feature was learned through w3Schools*/
+  background-color: yellow;
+  color:rgb(101, 242, 9);
+}

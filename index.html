@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MadLibs!</title>
+	<script src = "MadLibs.js"> </script>
+	<link rel = "stylesheet" href = "madLibs_IntroCss.css">
+  </head>
+ 
+  <body>
+    <h1>MadLibs!</h1> 
+	<h2>Create your own adventure</h2>
+	<br>
+	<form id="storySelectionForm">
+		<label class="desc" for = "storyOptions">Select a story!</label>
+		<br>
+		<br>
+		<br>
+		<select class = "desc2" id="selectStory" required> <!--The dropdown selection feature was learned from w3Schools-->
+				<option value="6">Plot Options</option>
+	            <option value="0">Space Adventure</option>
+	            <option value="1">Zoo Adventure</option>
+	            <option value="2">Wild West</option>
+				<option value="3">Candy Land</option>
+				<option value="4">Conspiracy Theory</option>
+				<option value="5">Minimum Wage Worker</option>
+				<!--Can add more options maybe?-->
+	     </select>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<button type="button" onclick="setStory()"> Continue </button>
+	</form>
+  </body>
+</html>

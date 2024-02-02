@@ -1,0 +1,30 @@
+/*The font "Chonburi, cursive" was obtained from w3Schools*/
+body {
+	font-family: 'Chonburi', cursive;
+	background-color: red;
+	font-size:25px;
+	color: yellow;
+}
+button{
+	text-align:center;
+    font-size: 34px;
+    color: yellow;
+    background-color: rgb(101, 242, 9);
+    width: 200px;
+    height: 100px;
+	font-family: 'Chonburi', cursive;
+	position: absolute;
+	top:600px;
+	left:670px;
+}
+#finalStory{
+	width: 600px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 370px;
+}
+button:hover {/*The hover feature was learned from w3Schools*/
+  background-color: yellow;
+  color:rgb(101, 242, 9);
+}
